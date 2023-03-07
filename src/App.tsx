@@ -1,12 +1,13 @@
 import './App.css';
 
-// import fonts
-// import './fonts/Helvetica-Light.ttf';
-// import './fonts/Helvetica.ttf';
-// import './fonts/Helvetica-Bold.ttf';
-// import './fonts/Helvetica-Oblique.ttf';
-// import './fonts/Helvetica-BoldOblique.ttf';
+// set the theme
+const theme = 'dark';
 
+// set the theme class
+const themeClass = theme === 'dark' ? 'dark-theme' : 'light-theme';
+
+// set the theme class on the body
+document.body.classList.add(themeClass);
 
 const App = () => {
   return (

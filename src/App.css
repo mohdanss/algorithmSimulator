@@ -29,11 +29,18 @@
         url("./fonts/Helvetica-Light.ttf") format("truetype");
 }
 
+/* root colors */
+:root {
+    --dark: #1a1a1a;
+    --darkPink: #fd006c;
+    --darkPurple: #8238e8;
+    --light: #eeeeee;
+}
 /* then use the font face in the body */
 .App {
 	font-family: "Regular";
 	font-size: 16px;
-	color: #03c4d2;
+    color: var(--dark);
 	margin: 0;
 	padding: 0;
 }
