@@ -12,7 +12,7 @@ document.body.classList.add(themeClass);
 const App = () => {
   return (
     <div className='App'>
-      Hello World!
+      Bismillah
     </div>
   );
 }
